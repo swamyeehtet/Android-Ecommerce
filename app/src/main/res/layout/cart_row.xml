@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="#FFF"
+
+>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="150dp"
+                  android:orientation="horizontal"
+                  android:background="#FFF"
+    >
+        <ImageView
+                android:id="@+id/tv_cart_Image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/features"
+
+        />
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:background="#FFF"
+                      android:layout_weight="1"
+                      android:layout_marginTop="70dp"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+
+        >
+            <TextView
+                    android:id="@+id/tv_cart_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Product Title"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/antic"/>
+            <TextView
+                    android:id="@+id/tv_cart_Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="$ 900"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginRight="10dp"
+
+        >
+            <Button
+                    android:id="@+id/btnRemove"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:drawable/ic_delete"
+                    android:textAllCaps="false"
+            />
+
+            <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:drawable/ic_input_add"
+                    android:textAllCaps="false"
+                    />
+            <Button
+                    android:id="@+id/btnSubtract"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/subtract"
+                    android:textAllCaps="false"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="350dp"
+          android:layout_height="2dp"
+          android:background="#DDDBDB"
+          android:layout_gravity="center_horizontal"
+    />
+
+
+</LinearLayout>

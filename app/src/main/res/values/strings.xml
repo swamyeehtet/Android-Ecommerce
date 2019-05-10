@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SHCommerce</string>
+    <string name="ads_text">The latest release of Android brings a host of new features, like stronger protections for
+        user privacy, new ways to engage users, better support for foldables, Vulkan extensions, and more!
+
+    </string>
+    <string name="product_name">Product Name here Sir!</string>
+
+    <string name="category">
+        Car
+        Bike
+        Computer
+        Drink
+        Food
+        Funiture
+        Hostel
+        Phone
+        Shirts
+        Templates
+        !</string>
+</resources>
